@@ -1,1 +1,5 @@
 # Qt Style set
+# 项目介绍
+在Qt项目中有时候我们需要修改一些Qt中的参数：比如Tooltip的弹出判定时间，Tooltip的休眠时间等，在业务层无法实现，需要在项目中重新给窗口挂style，重写相关的获取常量的函数，从而自定义我们需要的内容。
+
+demo中实现了直接修改Application的style从而全局修改了Tooltip的弹出时间。也可以直接将style挂在相应的Qwidget中。
